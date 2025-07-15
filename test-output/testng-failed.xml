@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="e_commerceProject.FirstTestCase">
+      <class name="e_commerceProject.HandleToastMessage">
         <methods>
           <include name="TearDown"/>
           <include name="ConfigureAppium"/>
-          <include name="FillForm"/>
+          <include name="ToastMessage"/>
         </methods>
-      </class> <!-- e_commerceProject.FirstTestCase -->
+      </class> <!-- e_commerceProject.HandleToastMessage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

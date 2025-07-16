@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-15T18:25:59 EEST" name="Default suite" finished-at="2025-07-15T18:26:38 EEST" duration-ms="38872">
+  <suite started-at="2025-07-16T10:26:09 EEST" name="Default suite" finished-at="2025-07-16T10:27:02 EEST" duration-ms="53613">
     <groups>
     </groups>
-    <test started-at="2025-07-15T18:25:59 EEST" name="Default test" finished-at="2025-07-15T18:26:38 EEST" duration-ms="38872">
-      <class name="e_commerceProject.HandleToastMessage">
-        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:e_commerceProject.HandleToastMessage@66d18979]" started-at="2025-07-15T18:25:59 EEST" name="ConfigureAppium" finished-at="2025-07-15T18:26:08 EEST" duration-ms="8433" status="PASS">
+    <test started-at="2025-07-16T10:26:09 EEST" name="Default test" finished-at="2025-07-16T10:27:02 EEST" duration-ms="53613">
+      <class name="e_commerceProject.ScrollToElementAndAddToCart">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:e_commerceProject.ScrollToElementAndAddToCart@66d18979]" started-at="2025-07-16T10:26:09 EEST" name="ConfigureAppium" finished-at="2025-07-16T10:26:19 EEST" duration-ms="9796" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigureAppium -->
-        <test-method signature="ToastMessage()[pri:0, instance:e_commerceProject.HandleToastMessage@66d18979]" started-at="2025-07-15T18:26:08 EEST" name="ToastMessage" finished-at="2025-07-15T18:26:37 EEST" duration-ms="29392" status="PASS">
+        <test-method signature="FillForm()[pri:0, instance:e_commerceProject.ScrollToElementAndAddToCart@66d18979]" started-at="2025-07-16T10:26:19 EEST" name="FillForm" finished-at="2025-07-16T10:27:00 EEST" duration-ms="40992" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ToastMessage -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:e_commerceProject.HandleToastMessage@66d18979]" started-at="2025-07-15T18:26:37 EEST" name="TearDown" finished-at="2025-07-15T18:26:38 EEST" duration-ms="956" status="PASS">
+        </test-method> <!-- FillForm -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:e_commerceProject.ScrollToElementAndAddToCart@66d18979]" started-at="2025-07-16T10:27:00 EEST" name="TearDown" finished-at="2025-07-16T10:27:02 EEST" duration-ms="2734" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-      </class> <!-- e_commerceProject.HandleToastMessage -->
+      </class> <!-- e_commerceProject.ScrollToElementAndAddToCart -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

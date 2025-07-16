@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="e_commerceProject.HandleToastMessage">
+      <class name="e_commerceProject.ConvertFromNativeAppToHybridApp">
         <methods>
           <include name="TearDown"/>
           <include name="ConfigureAppium"/>
-          <include name="ToastMessage"/>
+          <include name="HybridApp"/>
         </methods>
-      </class> <!-- e_commerceProject.HandleToastMessage -->
+      </class> <!-- e_commerceProject.ConvertFromNativeAppToHybridApp -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

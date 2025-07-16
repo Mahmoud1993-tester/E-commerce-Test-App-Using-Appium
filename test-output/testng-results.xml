@@ -1,25 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-16T10:51:23 EEST" name="Default suite" finished-at="2025-07-16T10:52:14 EEST" duration-ms="51369">
+  <suite started-at="2025-07-16T14:24:08 EEST" name="Default suite" finished-at="2025-07-16T14:24:38 EEST" duration-ms="29948">
     <groups>
     </groups>
-    <test started-at="2025-07-16T10:51:23 EEST" name="Default test" finished-at="2025-07-16T10:52:14 EEST" duration-ms="51369">
-      <class name="e_commerceProject.ScrollToElementAndAddToCart">
-        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:e_commerceProject.ScrollToElementAndAddToCart@7d8704ef]" started-at="2025-07-16T10:51:23 EEST" name="ConfigureAppium" finished-at="2025-07-16T10:51:33 EEST" duration-ms="9985" status="PASS">
+    <test started-at="2025-07-16T14:24:08 EEST" name="Default test" finished-at="2025-07-16T14:24:38 EEST" duration-ms="29948">
+      <class name="e_commerceProject.ConvertFromNativeAppToHybridApp">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:e_commerceProject.ConvertFromNativeAppToHybridApp@7d8704ef]" started-at="2025-07-16T14:24:08 EEST" name="ConfigureAppium" finished-at="2025-07-16T14:24:17 EEST" duration-ms="9111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigureAppium -->
-        <test-method signature="FillForm()[pri:0, instance:e_commerceProject.ScrollToElementAndAddToCart@7d8704ef]" started-at="2025-07-16T10:51:33 EEST" name="FillForm" finished-at="2025-07-16T10:52:14 EEST" duration-ms="40439" status="PASS">
+        <test-method signature="HybridApp()[pri:0, instance:e_commerceProject.ConvertFromNativeAppToHybridApp@7d8704ef]" started-at="2025-07-16T14:24:17 EEST" name="HybridApp" finished-at="2025-07-16T14:24:37 EEST" duration-ms="19663" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[androidx.test.uiautomator.StaleObjectException
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [e75a0706-002c-426b-98f1-f7b2da4402d2, getElementAttribute {name=text, id=00000000-0000-01bf-ffff-ffff00000040}]
+Capabilities {appium:app: D:\eclipse Projects\E-comme..., appium:appActivity: com.androidsample.generalst..., appium:appPackage: com.androidsample.generalstore, appium:automationName: UIAutomator2, appium:chromedriverExecutable: D:\Chrome Driver\chromedriv..., appium:databaseEnabled: false, appium:desired: {app: D:\eclipse Projects\E-comme..., automationName: UIAutomator2, chromedriverExecutable: D:\Chrome Driver\chromedriv..., deviceName: Saber, platformName: ANDROID}, appium:deviceApiLevel: 29, appium:deviceManufacturer: Google, appium:deviceModel: Android SDK built for x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2280, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 10, appium:statBarHeight: 83, appium:takesScreenshot: true, appium:viewportRect: {height: 2197, left: 0, top: 83, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (e75a0706-002c-426b-98f1-f7b2da4402d2)] -> id: com.androidsample.generalstore:id/toolbar_title]
+Session ID: e75a0706-002c-426b-98f1-f7b2da4402d2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [e75a0706-002c-426b-98f1-f7b2da4402d2, getElementAttribute {name=text, id=00000000-0000-01bf-ffff-ffff00000040}]
+Capabilities {appium:app: D:\eclipse Projects\E-comme..., appium:appActivity: com.androidsample.generalst..., appium:appPackage: com.androidsample.generalstore, appium:automationName: UIAutomator2, appium:chromedriverExecutable: D:\Chrome Driver\chromedriv..., appium:databaseEnabled: false, appium:desired: {app: D:\eclipse Projects\E-comme..., automationName: UIAutomator2, chromedriverExecutable: D:\Chrome Driver\chromedriv..., deviceName: Saber, platformName: ANDROID}, appium:deviceApiLevel: 29, appium:deviceManufacturer: Google, appium:deviceModel: Android SDK built for x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2280, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 10, appium:statBarHeight: 83, appium:takesScreenshot: true, appium:viewportRect: {height: 2197, left: 0, top: 83, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (e75a0706-002c-426b-98f1-f7b2da4402d2)] -> id: com.androidsample.generalstore:id/toolbar_title]
+Session ID: e75a0706-002c-426b-98f1-f7b2da4402d2
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:244)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:149)
+at org.openqa.selenium.support.ui.ExpectedConditions.getAttributeOrCssValue(ExpectedConditions.java:1175)
+at org.openqa.selenium.support.ui.ExpectedConditions$40.apply(ExpectedConditions.java:1124)
+at org.openqa.selenium.support.ui.ExpectedConditions$40.apply(ExpectedConditions.java:1121)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+at e_commerceProject.ConvertFromNativeAppToHybridApp.HybridApp(ConvertFromNativeAppToHybridApp.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FillForm -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:e_commerceProject.ScrollToElementAndAddToCart@7d8704ef]" started-at="2025-07-16T10:52:14 EEST" name="TearDown" finished-at="2025-07-16T10:52:14 EEST" duration-ms="876" status="PASS">
+        </test-method> <!-- HybridApp -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:e_commerceProject.ConvertFromNativeAppToHybridApp@7d8704ef]" started-at="2025-07-16T14:24:37 EEST" name="TearDown" finished-at="2025-07-16T14:24:38 EEST" duration-ms="1105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-      </class> <!-- e_commerceProject.ScrollToElementAndAddToCart -->
+      </class> <!-- e_commerceProject.ConvertFromNativeAppToHybridApp -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -9,6 +9,7 @@ import java.time.Duration;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
+import io.appium.java_client.remote.options.BaseOptions;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
 
@@ -31,17 +32,24 @@ public class BaseTest {
 
         // 1. Name of the emulator 
         options.setDeviceName("Saber");
+        
+        // 2. Setup ChromeDriver
+        options.setChromedriverExecutable("D:\\Chrome Driver\\chromedriver-win32\\chromedriver-win32\\chromedriver.exe");
 
-        // 2. Platform name 
+        // 3. Platform name 
         options.setPlatformName("Android");
 
-        // 3. Automation engine 
+        // 4. Automation engine 
         options.setAutomationName("UIAutomator2");
+        
+        
+		// 5. // Install the app first
+        options.setCapability("app", "path/to/generalstore.apk");
 
-        // 4. Full path to APK 
+        // 5. Full path to APK 
         options.setApp("D:\\eclipse Projects\\E-commerce App\\commerceApp\\src\\test\\java\\resources\\General-Store.apk");
 
-        // 5. Start the AndroidDriver
+        // 6. Start the AndroidDriver
         driver = new AndroidDriver(new URL("http://127.0.0.1:4723"), options);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}

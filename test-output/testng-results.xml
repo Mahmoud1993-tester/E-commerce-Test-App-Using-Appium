@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-16T10:26:09 EEST" name="Default suite" finished-at="2025-07-16T10:27:02 EEST" duration-ms="53613">
+  <suite started-at="2025-07-16T10:51:23 EEST" name="Default suite" finished-at="2025-07-16T10:52:14 EEST" duration-ms="51369">
     <groups>
     </groups>
-    <test started-at="2025-07-16T10:26:09 EEST" name="Default test" finished-at="2025-07-16T10:27:02 EEST" duration-ms="53613">
+    <test started-at="2025-07-16T10:51:23 EEST" name="Default test" finished-at="2025-07-16T10:52:14 EEST" duration-ms="51369">
       <class name="e_commerceProject.ScrollToElementAndAddToCart">
-        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:e_commerceProject.ScrollToElementAndAddToCart@66d18979]" started-at="2025-07-16T10:26:09 EEST" name="ConfigureAppium" finished-at="2025-07-16T10:26:19 EEST" duration-ms="9796" status="PASS">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:e_commerceProject.ScrollToElementAndAddToCart@7d8704ef]" started-at="2025-07-16T10:51:23 EEST" name="ConfigureAppium" finished-at="2025-07-16T10:51:33 EEST" duration-ms="9985" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigureAppium -->
-        <test-method signature="FillForm()[pri:0, instance:e_commerceProject.ScrollToElementAndAddToCart@66d18979]" started-at="2025-07-16T10:26:19 EEST" name="FillForm" finished-at="2025-07-16T10:27:00 EEST" duration-ms="40992" status="PASS">
+        <test-method signature="FillForm()[pri:0, instance:e_commerceProject.ScrollToElementAndAddToCart@7d8704ef]" started-at="2025-07-16T10:51:33 EEST" name="FillForm" finished-at="2025-07-16T10:52:14 EEST" duration-ms="40439" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillForm -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:e_commerceProject.ScrollToElementAndAddToCart@66d18979]" started-at="2025-07-16T10:27:00 EEST" name="TearDown" finished-at="2025-07-16T10:27:02 EEST" duration-ms="2734" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:e_commerceProject.ScrollToElementAndAddToCart@7d8704ef]" started-at="2025-07-16T10:52:14 EEST" name="TearDown" finished-at="2025-07-16T10:52:14 EEST" duration-ms="876" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->

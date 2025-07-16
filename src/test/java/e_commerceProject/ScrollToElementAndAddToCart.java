@@ -1,6 +1,11 @@
 package e_commerceProject;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import io.appium.java_client.AppiumBy;
@@ -35,7 +40,15 @@ public class ScrollToElementAndAddToCart extends BaseTest {
 		
 		driver.findElement(By.id("com.androidsample.generalstore:id/appbar_btn_cart")).click();
 		
+		// Wait until Add to Cart Page Loaded 
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+		wait.until(ExpectedConditions.attributeContains(driver.findElement(By.id("com.androidsample.generalstore:id/toolbar_title"))
+		, "text", "Cart"));
 		
-		Thread.sleep(4000);
+		// Assertion of Add to Cart Element 
+		String addToCartElement = driver.findElement(By.id("com.androidsample.generalstore:id/productName")).getText();
+		Assert.assertEquals(addToCartElement, "Jordan 6 Rings");
+		
+		Thread.sleep(2000);
 	}
 }
